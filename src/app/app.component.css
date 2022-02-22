@@ -1,0 +1,510 @@
+/* header */
+
+.cabecalho {
+  /* header */
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  /* Cinzas/Gray-900 */
+  background: #1A202C;
+  /* Cinzas/Gray-300 */
+  border: 1px solid #E2E8F0;
+  }
+
+  .retangulo {
+      /* Rectangle 19 */
+      position: absolute;
+      width: 5px;
+      height: 24px;
+      left: 276px;
+      top: 25px;
+      /* Cianos/$teal-400 */
+      background: #4FD1C5; }
+
+  .cabecalho-texto {
+      /* Cadastro DEV */
+  position: absolute;
+  height: 24px;
+  left: 285px;
+  top: 4px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 24px;
+  /* identical to box height, or 75% */
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  /* Cores primÃ¡rias/$theos-white */
+  color: #FFFFFF;
+  }
+  .pesquisa-cabecalho {
+  /* search_bg */
+  position: absolute;
+  left: 45%;
+  right: 0%;
+  top: 25%;
+  bottom: 0%;
+  /* Cinzas/Gray-800 */
+  background: #2D3748;
+  /* Cinzas/Gray-800 */
+  border: 1px solid #2D3748;
+  box-sizing: border-box;
+  /* .shadow */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  width: 359px;
+  height: 40px;
+  }
+
+  .formulario {
+  /* Rectangle 18 */
+  position: absolute;
+  width: 400px;
+  height: 833px;
+  left: 180px;
+  top: 76px;
+
+  /* Cores primÃ¡rias/$theos-white */
+
+  background: #FFFFFF;
+  /* Cinzas/Gray-400 */
+
+  border: 1px solid #CBD5E0;
+  box-sizing: border-box;
+  /* shadow */
+
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  }
+
+  .form-control {
+  /* Rectangle 21 */
+  position: absolute;
+  width: 336px;
+  height: 42px;
+  left: 30px;
+  top: 25px;
+  /* Cinzas/Gray-700 */
+  border: 2px solid #4A5568;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .git-texto {
+  /* Cadastrar com GitHub */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 250.90%;
+  text-align: center;
+  /* identical to box height, or 25px */
+  /* Cinzas/Gray-800 */
+  cursor: pointer;
+  color: #2D3748;
+  }
+
+  .form-usuario {
+  /* UsuÃ¡rio Github */
+  position: absolute;
+  height: 21px;
+  left: 30px;
+  top: 80px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #7E8288;
+  }
+  .usuario-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 42px;
+  left: 30px;
+  top: 110px;
+  background: #CFD8E3;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .line {
+  /* Line 8 */
+  position: absolute;
+  width: 336px;
+  height: 0px;
+  left: 30px;
+  top: 170px;
+  /* Cinzas/Gray-300 */
+  border: 1px solid #E2E8F0;
+  }
+  .avatar-texto {
+  /* Avatar (URL) */
+  position: absolute;
+  width: 68px;
+  height: 21px;
+  left: 30px;
+  top: 190px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .avatar-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  left: 30px;
+  top: 215px;
+  /* White */
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .nome-texto {
+  /* Nome */
+  position: absolute;
+  width: 33px;
+  height: 21px;
+  left: 30px;
+  top: 265px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .nome-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  left: 30px;
+  top: 290px;
+  /* White */
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .email-texto {
+  /* Email */
+  position: absolute;
+  width: 30px;
+  height: 21px;
+  left: 30px;
+  top: 340px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .email-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  left: 30px;
+  top: 365px;
+  /* White */
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .cidade-texto {
+  /* Cidade */
+  position: absolute;
+  width: 38px;
+  height: 21px;
+  left: 30px;
+  top: 415px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .cidade-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  left: 30px;
+  top: 440px;
+  /* White */
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .line-9 {
+  /* Line 8 */
+  position: absolute;
+  width: 336px;
+  height: 0px;
+  left: 30px;
+  top: 500px;
+  /* Cinzas/Gray-300 */
+  border: 1px solid #E2E8F0;
+  }
+  .profissional {
+      /* PROFISSIONAL */
+  position: absolute;
+  width: 112px;
+  height: 28px;
+  left: 150px;
+  top: 515px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 175.78%;
+  /* or 28px */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .formacao-texto {
+  /* FormaÃ§Ã£o */
+  position: absolute;
+  width: 55px;
+  height: 21px;
+  left: 30px;
+  top: 550px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .formacao-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 40px;
+  left: 30px;
+  top: 580px;
+  /* White */
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  .tecnologias-texto {
+  /* Tecnologias */
+  position: absolute;
+  width: 66px;
+  height: 21px;
+  left: 30px;
+  top: 630px;
+  /* .75rem Â· text-xs Â· font-medium */
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 21px;
+  /* identical to box height */
+  /* Cinzas/Gray-800 */
+  color: #2D3748;
+  }
+  .tecnologias-campo {
+  /* campo */
+  position: absolute;
+  width: 336px;
+  height: 90px;
+  padding: 1px 10px 50px;
+  left: 30px;
+  top: 655px;
+  /* White*/
+  background: #FFFFFF;
+  /* Cinzas/Gray-500 */
+  border: 2px solid #A0AEC0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  }
+  #cadastrar {
+      /* Rectangle 20 */
+  position: absolute;
+  width: 336px;
+  height: 42px;
+  left: 30px;
+  top: 760px;
+  /* Cores secundÃ¡rias/$theos-green */
+  background: #48BB78;
+  /* Verdes/$green-600 */
+  border: 1px solid #38A169;
+  box-sizing: border-box;
+  /* shadow-sm */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+  cursor: pointer;
+  }
+  .cadastrar-texto {
+  /* Cadastrar */
+  position: absolute;
+  width: 71px;
+  height: 24px;
+  left: 344px;
+  top: 844px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* Verdes/$green-900 */
+  color: #22543D;
+  }
+.card-cadastrar {
+
+/* card */
+position: absolute;
+width: 300px;
+height: 175px;
+left: 623px;
+top: 169px;
+/* Cinzas/Gray-900 */
+background: #1A202C;
+/* shadow-sm */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+border-radius: 3px;
+}
+
+.card-cadastrar-dois {
+  /* card */
+  position: absolute;
+  width: 300px;
+  height: 175px;
+  left: 800pt;
+  top: 169px;
+  /* Cinzas/Gray-900 */
+  background: #1A202C;
+  /* shadow-sm */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+  border-radius: 3px;
+}
+
+.card-cadastrar-nome {
+  /* João da Silva */
+margin-left: 15px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.card-cadastrar-cidade {
+  /* Maringá - PR */
+margin-left: 15px;
+width: 80px;
+height: 16px;
+left: 639px;
+top: 244px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.card-cadastrar-angular {
+/* Angular, Jquery, Vue */
+
+
+width: 100px;
+height: 16px;
+left: 639px;
+top: 270px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.card-cadastrar-github {
+  /* Acessar GitHub */
+
+width: 99px;
+height: 16px;
+left: 639px;
+top: 307px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* Verdes/$green-400 */
+color: #68D391;
+}
+.card-cadastrar-mao {
+  /* hover */
+position: absolute;
+left: 54.1%;
+right: 44.7%;
+top: 32.95%;
+bottom: 64.92%;
+
+background: #FFFFFF;
+}
+.card-cadastrar-editar {
+  /* Vector */
+position: absolute;
+left: 8.33%;
+right: 16.67%;
+top: 16.67%;
+bottom: 8.33%;
+/* Cores primárias/$theos-primary */
+border: 2px solid #4299E1;
+}
+.card-cadastrar-lixeira {
+/* Vector */
+position: absolute;
+left: 58.33%;
+right: 41.67%;
+top: 45.83%;
+bottom: 29.17%;
+/* Cores secundárias/$theos-red */
+border: 2px solid #E53E3E;
+}
