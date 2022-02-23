@@ -49,6 +49,7 @@
   right: 0%;
   top: 25%;
   bottom: 0%;
+  color: #FFFFFF;
   /* Cinzas/Gray-800 */
   background: #2D3748;
   /* Cinzas/Gray-800 */
@@ -390,21 +391,21 @@
   line-height: 24px;
   /* identical to box height, or 150% */
   /* Verdes/$green-900 */
-  color: #22543D;
+  color: #000000;
   }
 .card-cadastrar {
 
 /* card */
 position: absolute;
-width: 300px;
-height: 175px;
+width: 315px;
+height: 190px;
 left: 623px;
 top: 169px;
 /* Cinzas/Gray-900 */
 background: #1A202C;
 /* shadow-sm */
 box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
-border-radius: 3px;
+border-radius: 5px;
 }
 
 .card-cadastrar-dois {
@@ -450,8 +451,10 @@ color: #FFFFFF;
     font-weight: 100;
 }
 .cadastrar-acessogit {
-  margin-left: 15px;
-    margin-top: 30px;
+    width: 99px;
+    height: 18px;
+    margin-left: 15px;
+    margin-top: 40px;
     color: rgba(104, 211, 145, 1);
     font-size: 15px;
     font-weight: 100;
