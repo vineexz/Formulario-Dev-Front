@@ -399,6 +399,8 @@ width: 315px;
 height: 190px;
 left: 623px;
 top: 169px;
+padding: 0px;
+list-style-type: none;
 /* Cinzas/Gray-900 */
 background: #1A202C;
 /* shadow-sm */

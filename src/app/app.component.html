@@ -37,8 +37,10 @@
       <input type="submit" id="cadastrar" class="cadastrar-texto" value="Cadastrar">
   </form>
 
-      <div class="card-cadastrar img">
-        <ap-photo *ngFor="let photo of photos"
+    
+        <ol class="card-cadastrar"> 
+        <li *ngFor="let photo of photos"> 
+        <ap-photo 
                   [url]="photo.url">
         </ap-photo>
         <div class="card-cadastrar-nome">Bolsonaro Presidente</div>
@@ -47,5 +49,6 @@
         <div class="cadastrar-acessogit">Acessar GItHub</div>
         <button class="editar">Editar</button>
         <button class="excluir">Excluir</button>
-</div>
+      </li>
+      </ol>
 </body>
