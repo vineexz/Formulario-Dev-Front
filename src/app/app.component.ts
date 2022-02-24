@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Cadastro DEV';
+  title = 'Cadastro-DEV'
+  photos = [
+    {
+      url:"https://pbs.twimg.com/profile_images/1057631480459886595/9VPdGJJz_400x400.jpg"
+    }
+  ]
+
 }

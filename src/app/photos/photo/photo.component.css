@@ -1,0 +1,9 @@
+.foto {
+  /* Ellipse 7 */
+  position: fixed;
+  background-size: contain;
+  height: 88px;
+  left: 819px;
+  top: 125px;
+  border-radius: 50%;
+}
