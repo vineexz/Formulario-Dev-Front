@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
 @Component({
   selector: 'ap-photo',
-  templateUrl: 'photo.component.html',
-  styleUrls: ['photo.component.css']
+  templateUrl: 'card.component.html',
+  styleUrls: ['card.component.css']
 
 })
 
-export class PhotoComponent {
+export class CardComponent {
   @Input() url='';
 }
