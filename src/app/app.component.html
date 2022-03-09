@@ -37,18 +37,21 @@
       <input type="submit" id="cadastrar" class="cadastrar-texto" value="Cadastrar">
   </form>
 
-    
-        <ol class="card-cadastrar"> 
-        <li *ngFor="let photo of photos"> 
-        <ap-photo 
-                  [url]="photo.url">               
+
+        <ol class="card-cadastrar">
+        <li *ngFor="let photo of card">
+        <ap-photo
+                  [url]="photo.url">
         </ap-photo>
-        <div class="card-cadastrar-nome">Bolsonaro Presidente</div>
-        <div class="cadastrar-cidade">Maringa - PR</div>
-        <div class="cadastrar-tecnologias">Angular, Jquery, Vue</div>
-        <div class="cadastrar-acessogit">Acessar GItHub</div>
+        <li *ngFor="let nome of card">
+          <span> {{ nome.name }}</span>
+        </li>
+        <li class="cadastrar-cidade">Maringa - PR</li>
+        <li class="cadastrar-tecnologias">Angular, Jquery, Vue</li>
+        <li class="cadastrar-acessogit">Acessar GItHub</li>
         <button class="editar">Editar</button>
         <button class="excluir">Excluir</button>
-      </li>
+
+
       </ol>
 </body>

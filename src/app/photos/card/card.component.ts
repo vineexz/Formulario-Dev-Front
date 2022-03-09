@@ -8,4 +8,5 @@ import { Component, Input } from '@angular/core';
 
 export class CardComponent {
   @Input() url='';
+  @Input() nome='';
 }

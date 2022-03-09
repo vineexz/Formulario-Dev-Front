@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Cadastro-DEV'
-  photos = [
+  card = [
     {
-      url:"https://pbs.twimg.com/profile_images/1057631480459886595/9VPdGJJz_400x400.jpg"
+      url:"https://pbs.twimg.com/profile_images/1057631480459886595/9VPdGJJz_400x400.jpg",
+      name: "Bolsonaro Presidente"
     }
   ]
-
 }
