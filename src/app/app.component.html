@@ -5,7 +5,7 @@
 </header>
 
 <body>
-  <form  class="formulario">
+  <form class="formulario">
       <label for="GitHub" class="form-control git-texto">Cadastrar com GitHub</label>
 
       <label for="Usuário" class="form-usuario">Usúario GITHUB</label>
@@ -14,7 +14,7 @@
       <label for="line" class="line"></label>
 
       <label for="avatar" class="avatar-texto">Avatar (URL)</label>
-      <input type="text" id="avatar" class="avatar-campo" >
+      <input type="text" id="avatar" class="avatar-campo" required autofocus>
 
       <label for="nome" class="nome-texto">Nome</label>
       <input type="text" id="nome" class="nome-campo">
@@ -36,17 +36,22 @@
 
       <input type="submit" id="cadastrar" class="cadastrar-texto" value="Cadastrar">
   </form>
+
+
         <ol class="card-cadastrar">
         <li *ngFor="let photo of card">
         <ap-photo
                   [url]="photo.url">
         </ap-photo>
+        <li *ngFor="let nome of card">
+          <span> {{ nome.name }}</span>
         </li>
-        <li class="nomeCard">Vinicius de souza</li>
         <li class="cadastrar-cidade">Maringa - PR</li>
         <li class="cadastrar-tecnologias">Angular, Jquery, Vue</li>
         <li class="cadastrar-acessogit">Acessar GItHub</li>
         <button class="editar">Editar</button>
         <button class="excluir">Excluir</button>
+
+
       </ol>
 </body>
