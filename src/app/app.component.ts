@@ -6,6 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
   title = 'Cadastro-DEV'
   card = [
     {
@@ -13,4 +14,12 @@ export class AppComponent {
       name: "Bolsonaro Presidente"
     }
   ]
+
+  nome = ''
+
+  salvar() {
+    console.log(this.nome);
+
+  }
+
 }
