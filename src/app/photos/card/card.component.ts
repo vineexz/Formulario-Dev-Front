@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'ap-photo',
   templateUrl: 'card.component.html',
@@ -6,7 +6,12 @@ import { Component, Input } from '@angular/core';
 
 })
 
-export class CardComponent {
+export class CardComponent implements OnInit{
+
+  constructor() {}
+  ngOnInit(){
+
+  }
   @Input() url='';
   @Input() nome='';
 }

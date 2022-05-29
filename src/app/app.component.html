@@ -5,7 +5,7 @@
 </header>
 
 <body>
-  <form class="formulario">
+  <form class="formulario" [formGroup]="formulario">
       <label for="GitHub" class="form-control git-texto">Cadastrar com GitHub</label>
 
       <label for="Usuário" class="form-usuario">Usúario GITHUB</label>
@@ -13,27 +13,29 @@
 
       <label for="line" class="line"></label>
 
-      <label for="avatar" class="avatar-texto">Avatar (URL)</label>
-      <input type="button" id="avatar" class="avatar-campo" required autofocus>
+      <label for="Arquivo" class="avatar-texto">Avatar(IMG/PNG)</label>
+      <img src="./assets/imagem-arquivo.png" alt="" id="imagem-arquivo">
+      <input type="file" id="imagem-arquivo" class="imagem-arquivo" accept="image/*" name="Arquivo">
 
       <label for="nome" class="nome-texto">Nome</label>
-      <input type="text" id="nome" class="nome-campo" name="nome" [(ngModel)]="nome">
+      <input type="text" id="nome" class="nome-campo" formControlName="nome" name="nome">
+
       <label for="email" class="email-texto">Email</label>
-      <input type="email" id="email" class="email-campo">
+      <input type="email" id="email" class="email-campo" formControlName="email" name="email">
 
       <label for="cidade" class="cidade-texto">Cidade</label>
-      <input type="text" id="cidade" class="cidade-campo">
+      <input type="text" id="cidade" class="cidade-campo" formControlName="cidade" name="cidade">
 
       <label for="line" class="line-9"></label>
 
       <label for="profissional" class="profissional">PROFISSIONAL</label>
       <label for="formacao" class="formacao-texto">Formacao</label>
-      <input type="text" id="formacao" class="formacao-campo">
+      <input type="text" id="formacao" class="formacao-campo" formControlName="formacao" name="formacao">
 
       <label for="tecnologias" class="tecnologias-texto">Tecnologias</label>
-      <input type="text" id="tecnologias" class="tecnologias-campo" placeholder="ex: HTML/CSS, Vue, Angular etc.">
+      <input type="text" id="tecnologias" class="tecnologias-campo" placeholder="ex: HTML/CSS, Vue, Angular etc." formControlName="tecnologias" name="tecnologias">
 
-      <input type="submit" id="cadastrar" class="cadastrar-texto" value="Cadastrar" C>
+      <input type="submit" id="cadastrar" class="cadastrar-texto" value="Cadastrar" (click)="cadastrar()" >
   </form>
         <ol class="card-cadastrar">
         <li *ngFor="let photo of card" style="width: 0;height: 0;">
@@ -46,7 +48,7 @@
         <li class="cadastrar-cidade">Maringa - PR</li>
         <li class="cadastrar-tecnologias">Angular, Jquery, Vue</li>
         <li class="cadastrar-acessogit">Acessar GItHub</li>
-        <button class="editar">Editar</button>
-        <button class="excluir">Excluir</button>
+        <button class="editar" (click)="editar">Editar</button>
+        <button class="excluir" (click)="excluir">Excluir</button>
       </ol>
 </body>

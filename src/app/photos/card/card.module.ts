@@ -5,4 +5,4 @@ import { NgModule } from "@angular/core";
   declarations: [ CardComponent ],
   exports: [ CardComponent ],
 })
-export class PhotosModule {}
+export class CardModule {}
