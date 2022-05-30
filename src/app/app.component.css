@@ -484,3 +484,7 @@ color: #FFFFFF;
   border: 2px solid #E53E3E;
   cursor: pointer;
 }
+input.ng-invalid {
+  border-color: #ff1111;
+  
+}
