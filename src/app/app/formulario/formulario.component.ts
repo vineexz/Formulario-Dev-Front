@@ -8,6 +8,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormularioComponent implements OnInit {
   public formulario!: FormGroup;
+  private item = [] = [];
+  public items = [] = [];
+
   constructor(private fb: FormBuilder) { }
 
   ngOnInit(): void {
@@ -28,5 +31,5 @@ export class FormularioComponent implements OnInit {
     console.log("Formulário válido", this.formulario.value);
   }
 
- 
+
 }

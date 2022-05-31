@@ -14,9 +14,10 @@
         <li *ngFor="let nome of card">
           <p class="nomeCard"> {{ nome.name }}</p>
         </li>
-        <li class="cadastrar-cidade">Maringa - PR</li>
-        <li class="cadastrar-tecnologias">Angular, Jquery, Vue</li>
-        <li class="cadastrar-acessogit">Acessar GItHub</li>
+        <li class="cadastrar-cidade" *ngFor="let nome of card"> {{ nome.cidade }} </li>
+        <li class="cadastrar-formacao" *ngFor="let nome of card"> {{ nome.formacao }} </li>
+        <li class="cadastrar-tecnologias" *ngFor="let nome of card"> {{ nome.tecnologias }} </li>
+        <li class="cadastrar-acessogit">Acesso Github</li>
         <button class="editar" (click)="editar">Editar</button>
         <button class="excluir" (click)="excluir">Excluir</button>
       </ol>

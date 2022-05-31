@@ -11,7 +11,10 @@ export class AppComponent implements OnInit{
   card = [
     {
       url:"https://pbs.twimg.com/profile_images/1057631480459886595/9VPdGJJz_400x400.jpg",
-      name: "Bolsonaro Presidente"
+      name: "Bolsonaro Presidente",
+      cidade: "Maringa",
+      formacao: "Faculdade cidade verde",
+      tecnologias: "Angular, Jquey, Vue"
     }
   ]
 
