@@ -60,344 +60,23 @@
   height: 40px;
   }
 
-  .formulario {
-  /* Rectangle 18 */
-  position: absolute;
-  width: 400px;
-  height: 833px;
-  left: 180px;
-  top: 76px;
 
-  /* Cores primÃ¡rias/$theos-white */
-
-  background: #FFFFFF;
-  /* Cinzas/Gray-400 */
-
-  border: 1px solid #CBD5E0;
-  box-sizing: border-box;
-  /* shadow */
-
-  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
-  border-radius: 3px;
-  }
-
-  .form-control {
-  /* Rectangle 21 */
-  position: absolute;
-  width: 336px;
-  height: 42px;
-  left: 30px;
-  top: 25px;
-  /* Cinzas/Gray-700 */
-  border: 2px solid #4A5568;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .git-texto {
-  /* Cadastrar com GitHub */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 250.90%;
-  text-align: center;
-  /* identical to box height, or 25px */
-  /* Cinzas/Gray-800 */
-  cursor: pointer;
-  color: #2D3748;
-  }
-
-  .form-usuario {
-  /* UsuÃ¡rio Github */
-  position: absolute;
-  height: 21px;
-  left: 30px;
-  top: 80px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  color: #7E8288;
-  }
-  .usuario-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 42px;
-  left: 30px;
-  top: 110px;
-  background: #CFD8E3;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .line {
-  /* Line 8 */
-  position: absolute;
-  width: 336px;
-  height: 0px;
-  left: 30px;
-  top: 170px;
-  /* Cinzas/Gray-300 */
-  border: 1px solid #E2E8F0;
-  }
-  .avatar-texto {
-  /* Avatar (URL) */
-  position: absolute;
-  width: 90px;
-  height: 18px;
-  left: 160px;
-  top: 190px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .avatar-campo {
-  /* campo */
-  position: absolute;
-  top: 196px;
-  margin-left: 40px;
-  margin-top: 15px;
-  padding: 15px 10px;
-  width: 300px;
-  background: #333;
-  cursor: pointer;
-  }
-  input[type="file"] {
-    display: none;
-  }
-  #imagem-arquivo {
-    width: 50px;
-    margin-top: 207px;
-    margin-left: 170px;
-    cursor: pointer;
-  }
-
-  .nome-texto {
-  /* Nome */
-  position: absolute;
-  width: 33px;
-  height: 21px;
-  left: 30px;
-  top: 265px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .nome-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 40px;
-  left: 30px;
-  top: 290px;
-  /* White */
-  background: #FFFFFF;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .email-texto {
-  /* Email */
-  position: absolute;
-  width: 30px;
-  height: 21px;
-  left: 30px;
-  top: 340px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .email-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 40px;
-  left: 30px;
-  top: 365px;
-  /* White */
-  background: #FFFFFF;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .cidade-texto {
-  /* Cidade */
-  position: absolute;
-  width: 38px;
-  height: 21px;
-  left: 30px;
-  top: 415px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .cidade-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 40px;
-  left: 30px;
-  top: 440px;
-  /* White */
-  background: #FFFFFF;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .line-9 {
-  /* Line 8 */
-  position: absolute;
-  width: 336px;
-  height: 0px;
-  left: 30px;
-  top: 500px;
-  /* Cinzas/Gray-300 */
-  border: 1px solid #E2E8F0;
-  }
-  .profissional {
-      /* PROFISSIONAL */
-  position: absolute;
-  width: 112px;
-  height: 28px;
-  left: 150px;
-  top: 515px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 175.78%;
-  /* or 28px */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .formacao-texto {
-  /* FormaÃ§Ã£o */
-  position: absolute;
-  width: 55px;
-  height: 21px;
-  left: 30px;
-  top: 550px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .formacao-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 40px;
-  left: 30px;
-  top: 580px;
-  /* White */
-  background: #FFFFFF;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  .tecnologias-texto {
-  /* Tecnologias */
-  position: absolute;
-  width: 66px;
-  height: 21px;
-  left: 30px;
-  top: 630px;
-  /* .75rem Â· text-xs Â· font-medium */
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 21px;
-  /* identical to box height */
-  /* Cinzas/Gray-800 */
-  color: #2D3748;
-  }
-  .tecnologias-campo {
-  /* campo */
-  position: absolute;
-  width: 336px;
-  height: 90px;
-  padding: 1px 10px 50px;
-  left: 30px;
-  top: 655px;
-  /* White*/
-  background: #FFFFFF;
-  /* Cinzas/Gray-500 */
-  border: 2px solid #A0AEC0;
-  box-sizing: border-box;
-  border-radius: 3px;
-  }
-  #cadastrar {
-      /* Rectangle 20 */
-  position: absolute;
-  width: 336px;
-  height: 42px;
-  left: 30px;
-  top: 760px;
-  /* Cores secundÃ¡rias/$theos-green */
-  background: #48BB78;
-  /* Verdes/$green-600 */
-  border: 1px solid #38A169;
-  box-sizing: border-box;
-  /* shadow-sm */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
-  border-radius: 3px;
-  cursor: pointer;
-  }
-  .cadastrar-texto {
-  /* Cadastrar */
-  position: absolute;
-  width: 71px;
-  height: 24px;
-  left: 344px;
-  top: 844px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-  /* Verdes/$green-900 */
-  color: #000000;
-  }
+.cadastrar-texto {
+/* Cadastrar */
+position: absolute;
+width: 71px;
+height: 24px;
+left: 344px;
+top: 844px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+/* Verdes/$green-900 */
+color: #000000;
+}
 .card-cadastrar {
 /* card */
 position: absolute;
@@ -414,7 +93,7 @@ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
 border-radius: 5px;
 }
 .nomeCard {
-  /* João da Silva */
+/* João da Silva */
 margin-left: 15px;
 margin-bottom: 5px;
 margin-top: 35px;
@@ -428,20 +107,18 @@ line-height: 19px;
 color: #FFFFFF;
 }
 .card-cadastrar-dois {
-  /* card */
-  position: absolute;
-  width: 300px;
-  height: 175px;
-  left: 800pt;
-  top: 169px;
-  /* Cinzas/Gray-900 */
-  background: #1A202C;
-  /* shadow-sm */
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
-  border-radius: 3px;
+/* card */
+position: absolute;
+width: 300px;
+height: 175px;
+left: 800pt;
+top: 169px;
+/* Cinzas/Gray-900 */
+background: #1A202C;
+/* shadow-sm */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+border-radius: 3px;
 }
-
-
 
 .cadastrar-cidade {
   margin-left: 15px;
@@ -483,8 +160,4 @@ color: #FFFFFF;
   bottom: 8.33%;
   border: 2px solid #E53E3E;
   cursor: pointer;
-}
-input.ng-invalid {
-  border-color: #ff1111;
-  
 }
