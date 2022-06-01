@@ -6,19 +6,19 @@
 
 <body>
         <app-formulario></app-formulario>
-        <ol class="card-cadastrar">
+        <div *ngIf="templateForm" >
+        <ol class="card-cadastrar" >
         <li *ngFor="let photo of card" style="width: 0;height: 0;">
         <ap-photo
                   [url]="photo.url">
         </ap-photo>
-        <li *ngFor="let nome of card">
-          <p class="nomeCard"> {{ nome.name }}</p>
-        </li>
+        <li class="nomeCard" *ngFor="let nome of card" > {{ nome.name }}</li>
         <li class="cadastrar-cidade" *ngFor="let nome of card"> {{ nome.cidade }} </li>
         <li class="cadastrar-formacao" *ngFor="let nome of card"> {{ nome.formacao }} </li>
         <li class="cadastrar-tecnologias" *ngFor="let nome of card"> {{ nome.tecnologias }} </li>
         <li class="cadastrar-acessogit">Acesso Github</li>
-        <button class="editar" (click)="editar">Editar</button>
-        <button class="excluir" (click)="excluir">Excluir</button>
+        <button class="editar" (click)="editar()">Editar</button>
+        <button class="excluir" (click)="excluir()">Excluir</button>
       </ol>
+    </div>
 </body>

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { FormGroup } from '@angular/forms';
 
 @Component({
@@ -7,7 +7,10 @@ import { FormGroup } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
+  public title: string | undefined
   public formulario!: FormGroup;
+  @Input() templateForm: boolean = true;
+
   card = [
     {
       url:"https://pbs.twimg.com/profile_images/1057631480459886595/9VPdGJJz_400x400.jpg",
@@ -23,7 +26,10 @@ export class AppComponent implements OnInit{
 
   ngOnInit(): void {}
 
-  editar() {  }
-  excluir() {  }
+  editar() {}
+
+  excluir() {
+    this.templateForm = false
+   }
   }
 

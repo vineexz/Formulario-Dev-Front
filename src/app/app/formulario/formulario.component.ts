@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -8,10 +8,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormularioComponent implements OnInit {
   public formulario!: FormGroup;
+  @Output() templateForm!: boolean;
   private item = [] = [];
   public items = [] = [];
 
-  constructor(private fb: FormBuilder) { }
+  constructor(private fb: FormBuilder) {}
 
   ngOnInit(): void {
     this.formulario = this.fb.group({
@@ -23,13 +24,13 @@ export class FormularioComponent implements OnInit {
     })
   }
   cadastrar() {
-
     if (!!this.formulario.valid) {
       console.log("Formulário inválido");
-      return
-    }
-    console.log("Formulário válido", this.formulario.value);
-  }
+    } else if (this.formulario) {
 
+      console.log("Formulário válido", this.formulario.value);
+    }
+
+  }
 
 }

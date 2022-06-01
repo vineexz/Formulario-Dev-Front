@@ -13,5 +13,4 @@ export class CardComponent implements OnInit{
 
   }
   @Input() url='';
-  @Input() nome='';
 }

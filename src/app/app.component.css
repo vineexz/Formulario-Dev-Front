@@ -96,8 +96,8 @@ border-radius: 5px;
 /* João da Silva */
 margin-left: 15px;
 margin-bottom: 5px;
-margin-top: 35px;
-width: 90%;
+margin-top: 18px;
+width: 60%;
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -121,6 +121,13 @@ border-radius: 3px;
 }
 
 .cadastrar-cidade {
+  margin-left: 15px;
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 100;
+  padding-bottom: 4px;
+}
+.cadastrar-formacao {
   margin-left: 15px;
   color: #FFFFFF;
   font-size: 15px;
@@ -161,3 +168,4 @@ border-radius: 3px;
   border: 2px solid #E53E3E;
   cursor: pointer;
 }
+
