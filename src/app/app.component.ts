@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { UntypedFormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,7 @@ import { FormGroup } from '@angular/forms';
 })
 export class AppComponent implements OnInit{
   public title: string | undefined
-  public formulario!: FormGroup;
+  public formulario!: UntypedFormGroup;
   @Input() templateForm: boolean = true;
 
   card = [

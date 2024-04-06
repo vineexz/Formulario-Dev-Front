@@ -1,5 +1,5 @@
 import { Component, OnInit, Output } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-formulario',
@@ -7,12 +7,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./formulario.component.css']
 })
 export class FormularioComponent implements OnInit {
-  public formulario!: FormGroup;
+  public formulario!: UntypedFormGroup;
   @Output() templateForm!: boolean;
   private item = [] = [];
   public items = [] = [];
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: UntypedFormBuilder) {}
 
   ngOnInit(): void {
     this.formulario = this.fb.group({
