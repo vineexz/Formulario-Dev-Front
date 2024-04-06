@@ -68,10 +68,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "formulario:build:production"
+              "buildTarget": "formulario:build:production"
             },
             "development": {
-              "browserTarget": "formulario:build:development"
+              "buildTarget": "formulario:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -79,7 +79,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "formulario:build"
+            "buildTarget": "formulario:build"
           }
         },
         "test": {
